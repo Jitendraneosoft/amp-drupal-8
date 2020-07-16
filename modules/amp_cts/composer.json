@@ -1,0 +1,17 @@
+{
+  "name": "drupal/amp_cts",
+  "type": "drupal-module",
+  "description": "CSS Tree Shaking for Google AMP",
+  "keywords": ["Drupal", "AMP"],
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/amp_cts",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/amp_cts",
+    "source": "http://cgit.drupalcode.org/amp_cts"
+  },
+  "require": {
+    "drupaljedi/css-tree-shaking": "^1.1",
+    "drupal/amp": "^3.0"
+  }
+}

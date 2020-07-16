@@ -1,0 +1,13 @@
+name: AMP CSS Tree Shaking
+type: module
+description: Enable CSS Tree Shaking for AMP pages.
+# core: 8.x
+package: Other
+dependencies:
+  - drupal:amp
+
+# Information added by Drupal.org packaging script on 2019-07-25
+version: '8.x-3.1'
+core: '8.x'
+project: 'amp_cts'
+datestamp: 1564030087

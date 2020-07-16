@@ -1,0 +1,8 @@
+services:
+  html_response.amp_cts_processor:
+    class: Drupal\amp_cts\Render\AmpCssTreeShakingHtmlResponseProcessor
+  html_response.amp_cts_subscriber:
+    class: Drupal\amp_cts\EventSubscriber\AmpCssTreeShakingHtmlResponseSubscriber
+    tags:
+      - { name: event_subscriber }
+    arguments: ['@html_response.amp_cts_processor', '@router.amp_context']

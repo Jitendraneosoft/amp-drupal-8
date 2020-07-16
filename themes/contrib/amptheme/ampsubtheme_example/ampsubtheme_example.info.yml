@@ -1,0 +1,25 @@
+name: ExAMPle Subtheme
+type: theme
+base theme: amptheme
+# This is a subtheme of the AMP theme, so most of the work is already done.
+
+description: The ExAMPle subtheme is a subtheme of the AMP theme.
+package: Custom
+core_version_requirement: ^8.8 || ^9
+
+libraries:
+  - ampsubtheme_example/base
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+
+# Information added by Drupal.org packaging script on 2020-06-25
+version: '8.x-3.0'
+project: 'amptheme'
+datestamp: 1593083875
